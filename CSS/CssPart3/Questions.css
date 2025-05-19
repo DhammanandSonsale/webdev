@@ -1,0 +1,33 @@
+.outside{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+
+}
+
+.inside1{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: red;
+    margin: 10px;
+}
+
+.inside2{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.inside3{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: green;
+    margin: 10px;
+}

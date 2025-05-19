@@ -1,0 +1,87 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: red;
+
+    /* animation-name: WidthAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    /* animation: WidthAnimation 3s ease-in 0s infinite normal; */
+
+    animation: colAnimation 3s ease-in-out
+     0s infinite normal;
+
+
+}
+
+
+/* @keyframes MyAnimation{
+    form {
+    
+        background-color : green;
+        width: 20px;
+      
+
+    }
+    to {
+    
+        background-color: aqua;
+        width: 300px;
+        
+    }
+
+
+} */
+
+
+
+/* @keyframes colorAnimation{
+    from{
+        color: red;
+    }
+    to{
+        color: black;
+    }
+ } */
+
+ /* @keyframes WidthAnimation {
+    from{
+        background-color: red;
+        width: 30px;
+        height: 10px;
+        border: red 2px solid;
+        
+    }
+    to{
+        background-color: pink;
+        width: 400px;
+        border-radius: 60px;
+        height: 500px;
+    }
+    
+ }  */
+
+
+ @keyframes colAnimation{
+    0%{
+        color : green;
+        /* width: 10px; */
+        background-color: green;
+    }
+
+    50% {
+        color: yellow;
+        /* width: 250px; */
+        background-color: yellow;
+    }
+
+    100%{
+        color: blue;
+        /* width: 500px; */
+        background-color: black;
+    }
+ }

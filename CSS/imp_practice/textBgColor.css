@@ -1,0 +1,37 @@
+/* These are full text, color, and background properties */
+.plain{
+    color: gold;
+    background-color: grey;
+    height: max-content;
+    width: max-content;
+    font-size: 2rem;
+    padding: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline pink ;
+    /* text-decoration: double pink line-through; */
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 2.5px;
+}
+
+.hex{
+    color: #0f0;
+    background-color: #808080;
+    height: 20px;
+    width: max-content;
+}
+
+.rgb{
+    color: rgb(0, 200, 200);
+    background-color: #808080;
+    height: 20px;
+    width: max-content;
+}
+
+.rgba{
+    color: rgba(200, 200, 0, 0.6);
+    background-color: #808080;
+    height: 20px;
+    width: max-content;
+}
+

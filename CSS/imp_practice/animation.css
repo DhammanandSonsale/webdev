@@ -1,0 +1,41 @@
+.box{
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    /* Here is animation */
+    animation: myanimation ease-out 3s infinite alternate;
+    /* animation : myanimation 1.5s ease-in-out infinite alternate */
+}
+
+.box p{
+    font-size: 2rem;
+    color: white;
+    animation: myanimation2 ease-out 10s infinite alternate;
+
+}
+
+
+@keyframes myanimation2 {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+    
+}
+
+
+@keyframes myanimation {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: violet;
+    }
+    
+}

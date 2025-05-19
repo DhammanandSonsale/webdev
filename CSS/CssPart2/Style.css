@@ -1,0 +1,126 @@
+/* Universal selector */
+*{
+    /* background-color: aqua; */
+}
+
+
+/* ELement Selector */
+h1, h3 {
+    color: #b92b27 !important;
+}
+
+
+/* Id selector */
+#login{
+    background-color: white;
+
+}
+
+#login:hover{
+    color: #fff;
+    background-color: black;
+}
+
+#signup{
+    background-color: #b92b27;
+}
+
+/* Class selector */
+.upvote{
+    background-color: green;
+}
+
+.upvote:hover{
+    color: #fff;
+    background-color: black;
+}
+
+
+/* Desendent Selector */
+.post a{
+    background-color: yellow;
+}
+
+nav a{
+    color: hotpink;
+}
+/* Sibling combinator */
+
+p + h3{
+    /* background-color: #b92b27; */
+}
+
+.upvote + button{
+    background-color: #d62828;
+}
+
+/* Children combinator  only one level under*/
+
+div > input{
+    background-color: darkgray;
+}
+
+/* Attribute selector */
+
+input[type = "text"]{
+    color: red;
+
+}
+
+input[type="password"]{
+    color: green;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+#myid[id="myid"]{
+    color: green;
+}
+
+/* Pseudo Properties */
+h3:hover{
+    text-decoration: underline;
+}
+
+button:active{
+    background-color: hotpink;
+    color: white;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(3n){
+    background-color: #b92b27;
+
+}
+
+/* Pseudo element */
+
+h1::first-letter{
+    color: black;
+}
+p::first-line{
+    color: blue;
+}
+
+p::selection{
+    background-color: lemonchiffon;
+}
+
+h3{
+    background-color: gray;
+}
+
+div{
+    background-color: antiquewhite;
+}

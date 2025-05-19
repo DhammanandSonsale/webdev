@@ -1,0 +1,50 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border: 16px solid #333333;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+
+}
+
+
+@keyframes spin{ 
+    0%{
+        transform: rotate(0deg);
+    }
+
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.loader2{
+    height: 30px;
+    width: 300px;
+    background-color: #fff;
+    border: 3px solid black;
+    
+
+}
+
+.move{
+    height: 30px;
+    width: 2px;
+    background-color: #0f0;
+    animation: spin2 10s linear infinite;
+}
+
+@keyframes spin2{
+    0%{
+        width: 3px;
+    }
+
+    50%{
+        width: 50%;
+    }
+    100%{
+        width: 100%;
+    }
+}

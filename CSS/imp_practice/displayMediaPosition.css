@@ -1,0 +1,70 @@
+.main{
+    height: 600px;
+    width: 800px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 2rem;
+}
+
+.main-suubsection{
+    height: 100px;
+    width: 100px;
+}
+
+.one{
+    background-color: aqua;
+}
+
+.two{
+    background-color: rgb(111, 0, 255);
+}
+
+.three{
+    background-color: rgb(255, 0, 174);
+}
+
+
+@media(max-width:727px){
+    .main{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width:460px){
+    .main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Position Properties */
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+}
+
+.sub{
+    height: 60px;
+    width: 60px;
+    background-color: aqua;
+    position: relative;
+    left: 4rem;
+    top: 4rem;
+}
+
+.sub2{
+    height: 60px;
+    width: 60px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    bottom : 0;
+
+}

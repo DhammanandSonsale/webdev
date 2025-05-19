@@ -1,0 +1,45 @@
+.container{
+    height: 800px;
+    width: 800px;
+    display: grid;
+    grid-template-rows: repeat(13, 1fr);
+    grid-template-columns: repeat(13, 1fr);
+    grid-gap: 10px;
+
+}
+
+.header{
+    grid-row: 1/2;
+    grid-column: 1/13;
+    background-color: pink;
+}
+
+.navigation{
+    grid-row: 2/3;
+    grid-column: 1/13;
+    background-color: pink;
+}
+
+.sidebar{
+    grid-row: 3/12;
+    grid-column: 1/4;
+    background-color: pink;
+}
+
+.main{
+    grid-row: 3/12;
+    grid-column: 4/13;
+    background-color: pink;
+}
+
+.ads{
+    grid-row: 12/13;
+    grid-column: 1/4;
+    background-color: pink;
+}
+
+.footer{
+    grid-row: 12/13;
+    grid-column: 4/13;
+    background-color: pink;
+}

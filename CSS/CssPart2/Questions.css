@@ -1,0 +1,56 @@
+*{
+    font-family: 'Courier New' !important;
+}
+
+h1{
+    color: #1b74e4 !important;
+}
+
+#btnsearch{
+    background-color: #000;
+    color: #fff;
+}
+
+#login{
+    background-color: aqua;
+}
+
+#signup{
+    background-color: aqua;
+}
+
+#myid{
+    color: green;
+}
+
+h1{
+    color: pink;
+}
+
+#greet{
+    color: yellow;
+
+}
+.myClass{
+    color: brown;
+}
+
+div p{
+    color: red;
+}
+
+.par{
+    color: aqua;
+}
+
+div .greetDiv .greet{
+
+}
+
+.greetDiv p.greet{
+
+}
+
+.greetDiv .greet{
+
+}

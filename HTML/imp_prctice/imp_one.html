@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- For Fevicon -->
+    <link rel="icon" href="HTML_Level1_Part-B/me.jpg" type="image/jpeg">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="styles.css">
+    <title>First Website Struture In HTML</title>
+</head>
+<body>
+    <!-- Headings -->
+    <h1>Hello</h1>
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+
+    <!-- paragraph -->
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis mollitia ex repudiandae nostrum consequuntur cum nam officiis iusto eum quae.</p>
+
+     <!-- bold, italic, underline -->
+      <p>Lorem, <b>ipsum</b> dolor <i>sit amet</i> <u>consectetur</u> <strong>adipisicing</strong> <em>elit.</em> Quidem, modi!</p>
+      <p>H<sub>2</sub>O</p>
+      <p>3<sup>2</sup> = 9</p>
+
+
+      <!-- Lists order and unorder -->
+       <ol type= "I">
+        <li>apple</li>
+        <li>banana</li>
+        <li>mango</li>
+        <li>orange</li>
+       </ol>
+
+       <ul type="square">
+        <li>apple</li>
+        <li>banana</li>
+        <li>mango</li>
+        <li>orange</li>
+       </ul>
+
+       <!-- Tables -->
+        <table border="black 1px solid">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Food</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Samosa</td>
+                    <td>20$</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Kachori</td>
+                    <td>15$</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Fruity</td>
+                    <td>20$</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        
+        <div>Dhamma</div> <!--Block -->
+        <hr>
+        <span>Dhamma</span> <!--Inline-->
+        <br>
+
+
+        <!-- Ancher Tag -->
+        <a href="https://github.com/DhammanandSonsale">Go To GitHub</a>
+        <hr>
+
+        <!-- Image Tag -->
+        <img src="HTML_Level1_Part-B/me.jpg" alt="My Image" width="100px">
+        <hr>
+
+        <!-- HTML Intities -->
+         <p>a &lt; b</p>
+         <p>a &gt; b</p>
+         <p>Dhamma  &nbsp;&nbsp;  &nbsp;&nbsp; Viraj</p>
+         <p>&nbsp;&quot;b&quot;</p>
+         <p>&SmallCircle;</p>
+         <p>&bigstar;</p>
+
+
+         <!-- Semantic -->
+          <head>
+            <!-- navabar -->
+             Dhamma
+             <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+             </nav>
+          </head>
+
+          <main>
+            <!-- Hero Section -->
+             <h1>All Your Content</h1>
+          </main>
+
+          <footer>
+            <!-- Your Should Be Here -->
+             <p>&copy; All rights reserved to Dhamma</p>
+          </footer>
+
+
+          <!-- Form -->
+           <form action="">
+
+            <select name="state" id="state">
+                <caption>Select Your State</caption>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Goa">Goa</option>
+                <option value="Assam">Assam</option>
+                <option value="Rajasthan">Rajasthan</option>
+            </select>
+
+            <br>
+            <hr>
+            <h3>Choose Your Subjects</h3>
+            <label for="Chem">Phy</label>
+            <input type="checkbox" name="sub" id="Phy">  
+            
+            <label for="Chem">Chem</label>
+            <input type="checkbox" name="sub" id="Chem">
+
+            
+            <label for="Math">Math</label>
+            <input type="checkbox" name="sub" id="Math">
+
+
+            <label for="Chem">Bio</label>
+            <input type="checkbox" name="sub" id="Bio">
+
+
+            <!-- Radio Button -->
+
+
+            <h3>Choose Your Subjects</h3>
+            <label for="RPhy">Phy</label>
+            <input type="radio" name="sub" id="RPhy">  
+            
+            <label for="RChem">Chem</label>
+            <input type="radio" name="sub" id="RChem">
+
+            
+            <label for="RMath">Math</label>
+            <input type="radio" name="sub" id="RMath">
+
+
+            <label for="RBio">Bio</label>
+            <input type="radio" name="sub" id="RBio">
+            <br>
+
+
+            <label for="feed">Enter You Thought</label>
+            <br>
+            <textarea name="sub" id="feed"></textarea>
+
+
+            <button>Click Me</button>
+            <button type="menu">Menu</button>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+           </form>
+
+    
+</body>
+</html>
